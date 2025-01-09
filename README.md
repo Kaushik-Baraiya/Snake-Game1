@@ -13,6 +13,11 @@ A fun and interactive Snake and Ladder game implemented in Python. This project 
 
 ---
 
+## Algorithm Description
+The game is implemented using a class-based approach, with a `SnakesAndLadders` class managing the game state and player turns. The game board is represented as a list of integers, where each index corresponds to a position on the board. Ladders and snakes are represented as tuples of start and end positions. Players are managed using a queue to ensure round-robin turns.
+It uses Queue data structure for player position and list data structure for player details, and 2D-Array for board representation.
+
+
 ## Features
 - Single-player or multiplayer mode.
 - Randomized dice rolls.
